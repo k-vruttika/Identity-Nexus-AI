@@ -204,26 +204,6 @@ All data is pre-computed — no pipeline re-run on page load. The dashboard read
 
 ---
 
-## Known Limitations
-
-### 1. Partial ML Recall on OVERPRIVILEGED / PRIVILEGE_ESCALATION
-The ML ensemble achieves only **57.5% recall on OVERPRIVILEGED** and **58.3% on PRIVILEGE_ESCALATION**. These are genuine shortfalls, not reporting artefacts.
-
-**Root cause**: Both categories are detected solely by the unsupervised ML layer (no deterministic rule covers them). The injection logic creates subtle privilege anomalies that blend with legitimately privileged users — particularly in departments with large ADMIN role counts, making the Z-score signal noisy. The ensemble contamination parameter (0.25) was tuned to avoid excessive false positives, which unavoidably depresses recall for the subtler ML-detected categories.
-
-**Path to improvement**: A labelled training set would allow supervised fine-tuning. Raising the contamination rate improves recall but inflates false positives. In production, peer-group cohort baselines per job-title would sharpen the Z-score signal.
-
-### 2. Two Unresolved Ground-Truth Identities
-The ground-truth file contains 400 labelled identities; `--validate` matches only 398. The 2-identity gap is a canonicalization edge case where the resolution step assigned canonical_ids that do not surface in anomaly scores output. This does not affect the main pipeline (all 453 canonical identities flow through correctly) and is confined to the `--validate` evaluation path.
-
-### 3. Synthetic Data Only
-All data is Faker-generated with controlled injection. Real enterprise data would contain more noise, partial observability, and legitimately complex privilege chains that may reduce ML recall further.
-
-### 4. LLM Narratives Require API Key and Package
-Without `ANTHROPIC_API_KEY` and the `anthropic` package installed, `LLMNarrativeGenerator` falls back to deterministic templates. All pipeline logic and the Streamlit dashboard function fully without it.
-
----
-
 
 
 ## Project Structure
