@@ -226,10 +226,10 @@ Without `ANTHROPIC_API_KEY` and the `anthropic` package installed, `LLMNarrative
 
 ## Screenshots
 
-*[Add screenshots before submission]*
-
 Suggested captures:
+
 1. **Executive Overview** — KPI row + risk tier donut + detection method breakdown
+![alt text](../outputimages/execoverview.png)
 2. **Identity Explorer** — filtered table + expanded detail panel (risk gauge + evidence block)
 3. **Attack Path Simulator** — side-by-side before/after graphs for a CRITICAL identity
 4. **Incident Explorer** — incident cards showing ML Ensemble vs Rule-based badges side by side

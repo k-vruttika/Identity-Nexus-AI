@@ -1,6 +1,6 @@
 # Identity Nexus AI — Pipeline Run Summary
 
-**Run timestamp:** 2026-06-21 14:36:24 UTC
+**Run timestamp:** 2026-06-21 15:10:21 UTC
 
 ## Key Metrics
 
@@ -40,16 +40,16 @@
 | Step | Duration (s) |
 |------|-------------|
 | 2. IdentityResolver | 0.7 |
-| 3. GraphBuilder | 0.8 |
-| 4. EffectivePrivilegeEngine | 1.9 |
-| 5. FeatureEngineering | 0.7 |
-| 6. AnomalyDetection | 2.6 |
+| 3. GraphBuilder | 0.9 |
+| 4. EffectivePrivilegeEngine | 1.6 |
+| 5. FeatureEngineering | 0.6 |
+| 6. AnomalyDetection | 3.1 |
 | 7. RiskScoring | 0.2 |
-| 8. IncidentClustering | 0.4 |
-| 9. AttackPathSimulator | 1.1 |
-| 10. RemediationEngine | 0.3 |
-| 11. ComplianceMapper | 0.3 |
-| **TOTAL (wall clock)** | **9.1** |
+| 8. IncidentClustering | 0.3 |
+| 9. AttackPathSimulator | 0.6 |
+| 10. RemediationEngine | 0.2 |
+| 11. ComplianceMapper | 0.2 |
+| **TOTAL (wall clock)** | **8.5** |
 
 ## Consistency Checks
 
