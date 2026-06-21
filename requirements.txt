@@ -1,0 +1,28 @@
+# Identity Nexus AI — Python dependencies
+# Verified against src/ imports; pinned to versions confirmed working on Python 3.13
+
+# --- Core data pipeline ---
+faker>=24.0.0           # DataSimulator: synthetic identity generation
+pandas>=2.1.0           # All modules: DataFrame I/O
+numpy>=1.26.0           # Feature engineering, score normalisation
+
+# --- Identity resolution ---
+rapidfuzz>=3.6.0        # IdentityResolver: fuzzy email/username matching
+
+# --- Graph construction & privilege traversal ---
+networkx>=3.2.0         # GraphBuilder, EffectivePrivilegeEngine, AttackPathSimulator
+
+# --- ML anomaly detection & clustering ---
+scikit-learn>=1.4.0     # IsolationForest, LocalOutlierFactor, MLPRegressor (autoencoder),
+                        # StandardScaler, DBSCAN, KMeans — anomaly_detection.py,
+                        # incident_clustering.py, feature_engineering.py
+
+# --- Presentation layer ---
+streamlit>=1.32.0       # app.py: SOC dashboard
+plotly>=5.20.0          # app.py: all charts (bar, pie, scatter/network, indicator)
+
+# --- LLM narrative generation (optional) ---
+# Install separately if you have an Anthropic API key:
+#   pip install anthropic
+# Without this, LLMNarrativeGenerator uses deterministic template fallback.
+# anthropic>=0.25.0

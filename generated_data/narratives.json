@@ -1,0 +1,222 @@
+[
+  {
+    "canonical_id": "0d31812e-30c3-6756-d453-f867b97e6224",
+    "display_name": "Kimberly Reed",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Privilege Abuse incident detected for Kimberly Reed on multiple. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 63.1/100. Key contributing factors include: excessive admin privileges, mfa disabled, high cross platform exposure. Attack path analysis shows a blast radius score of 89.0/100, spanning 27 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 39.6 (55.6% reduction). Root cause: Identity holds 27 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 22% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 46.5%. Blast radius reduction: 55.6%. This action requires management approval. Basis: Identity holds 27 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 22% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "17e8392a-55ce-e5db-9e87-e04ca2086977",
+    "display_name": "Leslie Adams",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Dormant Admin incident detected for Leslie Adams on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 67.0/100. Key contributing factors include: dormant days, risk accumulation score, privilege usage ratio. Attack path analysis shows a blast radius score of 35.2/100, spanning 12 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 24.2 (31.2% reduction). Root cause: Identity holds 12 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 67% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 30.9%. Blast radius reduction: 31.2%. This action requires management approval. Basis: Identity holds 12 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 67% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "1e5ebe54-5907-7299-dc3b-bdd8a74e02a9",
+    "display_name": "Anne Robinson",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Dormant Admin incident detected for Anne Robinson on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 63.3/100. Key contributing factors include: dormant days, risk accumulation score, privilege usage ratio. Attack path analysis shows a blast radius score of 29.7/100, spanning 10 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 18.7 (37.0% reduction). Root cause: Identity holds 10 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 50% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 33.5%. Blast radius reduction: 37.0%. This action requires management approval. Basis: Identity holds 10 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 50% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "5f90bed6-fb25-664d-630a-a767a2bb522b",
+    "display_name": "Lee Charles",
+    "risk_tier": "CRITICAL",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[CRITICAL] Privilege Abuse incident detected for Lee Charles on multiple. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 86.7/100. Key contributing factors include: excessive admin privileges, high unused privilege ratio, anomaly model flag. Attack path analysis shows a blast radius score of 84.6/100, spanning 27 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 35.2 (58.4% reduction). Root cause: Identity holds 27 ADMIN/FULL_CONTROL privileges across 5 resource platform(s); 81% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: urgent, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 53.4%. Blast radius reduction: 58.4%. This action requires management approval. Basis: Identity holds 27 ADMIN/FULL_CONTROL privileges across 5 resource platform(s); 81% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "6d3ee1dc-8139-2443-e45b-712eb8225688",
+    "display_name": "Anna Baker",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Privilege Abuse incident detected for Anna Baker on multiple. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 64.5/100. Key contributing factors include: excessive admin privileges, mfa disabled, high cross platform exposure. Attack path analysis shows a blast radius score of 89.0/100, spanning 27 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 39.6 (55.6% reduction). Root cause: Identity holds 27 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 22% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 46.2%. Blast radius reduction: 55.6%. This action requires management approval. Basis: Identity holds 27 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 22% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "75b17a55-d426-2982-e43e-4288a2b5b498",
+    "display_name": "Chelsea Hernandez",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Dormant Admin incident detected for Chelsea Hernandez on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 62.7/100. Key contributing factors include: dormant days, privilege usage ratio, risk accumulation score. Attack path analysis shows a blast radius score of 24.2/100, spanning 8 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 13.2 (45.5% reduction). Root cause: Identity holds 8 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 75% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 37.8%. Blast radius reduction: 45.5%. This action requires management approval. Basis: Identity holds 8 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 75% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "76e5ae78-7bf7-e1d3-6a66-2fce7089fc6d",
+    "display_name": "Karen Carrillo",
+    "risk_tier": "CRITICAL",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[CRITICAL] Dormant Admin incident detected for Karen Carrillo on AzureAD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 87.2/100. Key contributing factors include: dormant days, risk accumulation score, privilege peer deviation. Attack path analysis shows a blast radius score of 62.6/100, spanning 19 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 13.2 (79.0% reduction). Root cause: Identity holds 19 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 68% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: urgent, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 61.2%. Blast radius reduction: 79.0%. This action requires management approval. Basis: Identity holds 19 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 68% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "9c3de1b0-022b-6683-9033-da6587cf63fd",
+    "display_name": "Stephanie Key",
+    "risk_tier": "CRITICAL",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[CRITICAL] Dormant Admin incident detected for Stephanie Key on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 91.8/100. Key contributing factors include: privilege peer deviation, admin role count, privilege count. Attack path analysis shows a blast radius score of 84.6/100, spanning 27 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 35.2 (58.4% reduction). Root cause: Identity holds 27 ADMIN/FULL_CONTROL privileges across 5 resource platform(s); 74% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: urgent, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 51.0%. Blast radius reduction: 58.4%. This action requires management approval. Basis: Identity holds 27 ADMIN/FULL_CONTROL privileges across 5 resource platform(s); 74% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "a1a27485-7134-8c2a-780b-3657117b355b",
+    "display_name": "Angel Doyle",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Privilege Abuse incident detected for Angel Doyle on multiple. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 60.9/100. Key contributing factors include: excessive admin privileges, mfa disabled. Attack path analysis shows a blast radius score of 79.1/100, spanning 24 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 29.7 (62.5% reduction). Root cause: Identity holds 24 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 12% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 51.0%. Blast radius reduction: 62.5%. This action requires management approval. Basis: Identity holds 24 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 12% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "a53bc024-d1a6-9d87-f54e-2019ba35844e",
+    "display_name": "Eric Spears",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Sod Violation incident detected for Eric Spears on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 75.1/100. Key contributing factors include: privilege peer deviation, admin role count, privilege count. Attack path analysis shows a blast radius score of 84.6/100, spanning 27 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 41.8 (50.6% reduction). Root cause: Identity holds 27 ADMIN/FULL_CONTROL privileges across 5 resource platform(s); 41% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 49.9%. Blast radius reduction: 50.6%. This action requires management approval. Basis: Identity holds 27 ADMIN/FULL_CONTROL privileges across 5 resource platform(s); 41% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "a8f1e091-ffb8-102d-9475-dbc996418ced",
+    "display_name": "Robert Ramirez",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Sod Violation incident detected for Robert Ramirez on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 65.8/100. Key contributing factors include: privilege peer deviation, admin role count, privilege count. Attack path analysis shows a blast radius score of 81.3/100, spanning 26 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 31.9 (60.8% reduction). Root cause: Identity holds 26 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 27% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 49.2%. Blast radius reduction: 60.8%. This action requires management approval. Basis: Identity holds 26 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 27% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "af34cf65-a193-c4b2-3c19-e71d118405ad",
+    "display_name": "Richard Brown",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Privilege Abuse incident detected for Richard Brown on multiple. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 60.9/100. Key contributing factors include: excessive admin privileges, high unused privilege ratio, high cross platform exposure. Attack path analysis shows a blast radius score of 73.6/100, spanning 23 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 30.8 (58.2% reduction). Root cause: Identity holds 23 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 43% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 51.6%. Blast radius reduction: 58.2%. This action requires management approval. Basis: Identity holds 23 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 43% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "ba2c98ce-0b19-f88e-9d77-a45ef206c269",
+    "display_name": "Cheryl Archer",
+    "risk_tier": "CRITICAL",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[CRITICAL] Privilege Abuse incident detected for Cheryl Archer on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 96.5/100. Key contributing factors include: admin role count, privilege count, dormant days. Attack path analysis shows a blast radius score of 84.6/100, spanning 27 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 35.2 (58.4% reduction). Root cause: Identity holds 27 ADMIN/FULL_CONTROL privileges across 5 resource platform(s); 70% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: urgent, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 50.4%. Blast radius reduction: 58.4%. This action requires management approval. Basis: Identity holds 27 ADMIN/FULL_CONTROL privileges across 5 resource platform(s); 70% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "bcc57be0-0779-250a-6544-e3136ea05d13",
+    "display_name": "Anna Torres",
+    "risk_tier": "HIGH",
+    "detection_method": "IF_PREDICT",
+    "narrative_text": "[HIGH] Dormant Admin incident detected for Anna Torres on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 62.2/100. Key contributing factors include: dormant days, risk accumulation score, privilege usage ratio. Attack path analysis shows a blast radius score of 24.2/100, spanning 8 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 13.2 (45.5% reduction). Root cause: Identity holds 8 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 75% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 37.3%. Blast radius reduction: 45.5%. This action requires management approval. Basis: Identity holds 8 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 75% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "c1101266-2408-a6dc-1346-d1a9f6802cdb",
+    "display_name": "Joe Wilson",
+    "risk_tier": "CRITICAL",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[CRITICAL] Dormant Admin incident detected for Joe Wilson on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 91.2/100. Key contributing factors include: dormant days, privilege peer deviation, admin role count. Attack path analysis shows a blast radius score of 73.6/100, spanning 23 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 24.2 (67.2% reduction). Root cause: Identity holds 23 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 65% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: urgent, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 54.1%. Blast radius reduction: 67.2%. This action requires management approval. Basis: Identity holds 23 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 65% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "c9c23e69-d82c-7565-4bb9-07ec13c11754",
+    "display_name": "Tammy Ramirez",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Sod Violation incident detected for Tammy Ramirez on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 62.0/100. Key contributing factors include: admin role count, privilege count, privilege peer deviation. Attack path analysis shows a blast radius score of 73.6/100, spanning 23 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 40.7 (44.8% reduction). Root cause: Identity holds 23 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 39% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 40.6%. Blast radius reduction: 44.8%. This action requires management approval. Basis: Identity holds 23 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 39% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "d9750f00-d5ab-a8ae-9112-fbc03d8f95f4",
+    "display_name": "Hannah Brewer",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Privilege Abuse incident detected for Hannah Brewer on multiple. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 64.4/100. Key contributing factors include: excessive admin privileges, high unused privilege ratio, mfa disabled. Attack path analysis shows a blast radius score of 73.6/100, spanning 23 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 30.8 (58.2% reduction). Root cause: Identity holds 23 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 43% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 48.5%. Blast radius reduction: 58.2%. This action requires management approval. Basis: Identity holds 23 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 43% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "dbd30aec-0b46-1173-00a8-547382425912",
+    "display_name": "Kathleen Harris",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Privilege Abuse incident detected for Kathleen Harris on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 66.1/100. Key contributing factors include: dormant days, risk event ratio, risk accumulation score. Attack path analysis shows a blast radius score of 35.2/100, spanning 12 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 24.2 (31.2% reduction). Root cause: Identity holds 12 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 42% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 30.7%. Blast radius reduction: 31.2%. This action requires management approval. Basis: Identity holds 12 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 42% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "de9e3757-5260-001e-eecf-67d2749176f4",
+    "display_name": "John Leblanc",
+    "risk_tier": "CRITICAL",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[CRITICAL] Dormant Admin incident detected for John Leblanc on AD. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 92.9/100. Key contributing factors include: dormant days, privilege peer deviation, risk accumulation score. Attack path analysis shows a blast radius score of 65.9/100, spanning 21 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 16.5 (75.0% reduction). Root cause: Identity holds 21 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 67% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: urgent, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 57.9%. Blast radius reduction: 75.0%. This action requires management approval. Basis: Identity holds 21 ADMIN/FULL_CONTROL privileges across 3 resource platform(s); 67% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  },
+  {
+    "canonical_id": "fde91c42-002c-4c22-74de-5f7070f81dba",
+    "display_name": "Sherri Mason",
+    "risk_tier": "HIGH",
+    "detection_method": "ML_ENSEMBLE|IF_PREDICT",
+    "narrative_text": "[HIGH] Privilege Abuse incident detected for Sherri Mason on multiple. This identity was flagged by the ensemble anomaly detection model as a statistical outlier, with a risk score of 62.7/100. Key contributing factors include: excessive admin privileges, mfa disabled, high cross platform exposure. Attack path analysis shows a blast radius score of 89.0/100, spanning 27 reachable resources. Applying REVOKE_ROLE would reduce blast radius to 39.6 (55.6% reduction). Root cause: Identity holds 27 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 30% are provisioned but unused — classic over-provisioning.",
+    "narrative_type": "TEMPLATE",
+    "rationale_text": "Recommended action: REVOKE_ROLE (priority: high, effort: moderate). Revoking the highest-privilege role reduces administrative access to only what is required for the identity's current business function, directly enforcing least-privilege principles. Estimated risk reduction: 46.8%. Blast radius reduction: 55.6%. This action requires management approval. Basis: Identity holds 27 ADMIN/FULL_CONTROL privileges across 4 resource platform(s); 30% are provisioned but unused — classic over-provisioning.",
+    "rationale_type": "TEMPLATE",
+    "generated_timestamp": "2026-06-21 09:02:38"
+  }
+]
